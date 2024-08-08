@@ -1,0 +1,12 @@
+.carrito {
+  padding: 20px;
+}
+
+.carrito img {
+  max-width: 100%;
+  height: auto;
+}
+
+.carrito .btn {
+  margin: 5px;
+}

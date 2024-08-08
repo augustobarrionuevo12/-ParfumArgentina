@@ -1,0 +1,46 @@
+/* index.css */
+.imagenPrincipalBanner {
+  background-image: url("/images/yvessaintlaurent.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100vw;
+  height: 50vh;
+  margin: 0;
+  padding: 0;
+}
+
+.ofertasTitulo {
+  text-align: center;
+  color: aliceblue;
+  margin-top: 20px;
+}
+
+body, html {
+  background-image: url("/images/fondoEstrellas.jpg");
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .imagenPrincipalBanner {
+    background-image: url("/images/yvessaintlaurent_mobile.png");
+    width: 100%;
+  }
+}
